@@ -1,8 +1,8 @@
 function reverse(arr) {
-  let inReverse = arr.reverse();
+  let reversedArrayString = arr.reverse();
   let space = "";
 
-  for (let num of inReverse) {
+  for (let num of reversedArrayString) {
     space += num + " ";
   }
 
